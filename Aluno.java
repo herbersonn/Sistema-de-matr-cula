@@ -19,17 +19,17 @@ public class Aluno {
 
     public void DigitarNome(){
         System.out.println("Digite o nome do aluno:");
-        nome = sc.nextLine();
+        nome = sc.next();
     }
 
     public void DigitarnomeMae(){
         System.out.println("Digite o nome da mae ");
-        nomeMae= sc.nextLine();
+        nomeMae= sc.next();
     }
 
     public void DigitarenderecoCompleto(){
         System.out.println("Digite o endereço");
-        enderecoCompleto = sc.nextLine();
+        enderecoCompleto = sc.next();
     }
     public void DigitarTelefone(){
         System.out.println("Digite o telefone ");
@@ -37,28 +37,24 @@ public class Aluno {
     }
 
     public void exibirId(){
-        System.out.println("O id do aluno é "+ id );
+        System.out.println("O id do aluno é: "+ id );
 
     }
 
     public void exibirNome(){
-        System.out.println("O id do nome é "+ nome  );
+        System.out.println("O id do nome é: "+ nome  );
 
     }
     public void exibirNomeMae(){
-        System.out.println("O  nome da mae  "+ nomeMae  );
+        System.out.println("O nome da mãe é: "+ nomeMae  );
 
     }
     public void exibirEndereco(){
-        System.out.println("O seu  "+  enderecoCompleto );
+        System.out.println("O seu endereço é: "+  enderecoCompleto );
 
     }
     public void exibirTelefone(){
-        System.out.println("O seu telefpne é"+ telefone);
+        System.out.println("O seu telefone é: "+ telefone);
     }
 
-    public static void main(String[] args) {
-
-
-    }
 }

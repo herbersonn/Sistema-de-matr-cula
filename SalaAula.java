@@ -6,16 +6,21 @@ public class SalaAula {
 
 
 
-     public void DigitarNumSala(){
-         System.out.println("Digite o id da Sala :");
-         idSala = sc.nextInt();
-     }
     public void DigitarIdSala(){
+        System.out.println("Digite o id da sala:");
+        idSala = sc.nextInt();
+    }
+    public void DigitarIdAluno(){
         System.out.println("Digite o id do aluno:");
         idAluno = sc.nextInt();
     }
-    public static void main(String[] args) {
-
-
+    public void executarIdSala(){
+        System.out.println("o id da sala é: "+ idSala);
     }
+
+
+    public void executarIdAluno(){
+        System.out.println("o id do aluno é: "+ idAluno);
+    }
+    
 }
